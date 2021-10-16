@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/theonlyonzz/Projects/reddit-bot-testing'
+let g:netrw_dirhist_2='/home/theonlyonzz/Projects/Python_Website_Scraper'
+let g:netrw_dirhist_1='/home/theonlyonzz/.config/_scripts'
+let g:netrw_dirhist_0='/home/theonlyonzz/Projects/Notes/TryHackMe/1_Pre_Security'
+let g:netrw_dirhist_9='/home/theonlyonzz/.config'
+let g:netrw_dirhist_8='/home/theonlyonzz/.config/i3lock'
+let g:netrw_dirhist_7='/home/theonlyonzz/.config'
+let g:netrw_dirhist_6='/home/theonlyonzz/.config/neofetch'
+let g:netrw_dirhist_5='/home/theonlyonzz/.config/polybar'
+let g:netrw_dirhist_4='/home/theonlyonzz/.config/_scripts'
