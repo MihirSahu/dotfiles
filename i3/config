@@ -379,6 +379,7 @@ client.urgent                $ubgcolor         $ubgcolor             $textcolor 
 exec /usr/bin/vmware-user-suid-wrapper
 #When trying to copy/paste from my host into thunar file manager in my guest I kept being denied copy/paste access, so I overcame it by using "sudo <file manager name>" and then copying into the manager
 #If you want to add extra disk space to the vm first add it in the VMware settings, and then use gparted to add it to current partition
+#IMPORTANT: When using the drag and drop between host and vm, for some reason vmtools keeps a copy of all copied items in the ~/.cache/drag-and-drop/ (or something like drag and drop) folder. Make sure to delete this from time to time because it takes a lot of space
 #If you want to use the guest with multiple monitors
 #	1. Make sure open-vm-tools and all dependencies are installed properly
 #	2. Use "xrandr" and check if all monitors are detected. If not, then click "Cycle multiple monitors" on vmware menu and check again. Repeat until xrandr detects monitors
