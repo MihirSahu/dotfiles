@@ -434,6 +434,8 @@ exec /usr/bin/vmware-user-suid-wrapper
 #exec_always feh --bg-fill ~/Pictures/arch_minimalist.png
 #I created a script in the .config/_scripts folder that randomizes the wallpaper when it's run, so if you want to have random wallpapers use this
 exec_always /home/theonlyonzz/.config/_scripts/random_wallpaper.sh
+#I also created a script that downloads a wallpaper from r/wallpapers on reddit and sets it as the wallpaper
+bindsym $mod+Shift+w exec /home/theonlyonzz/.config/_scripts/random_reddit_wallpaper.py
 
 #For single monitor
 #exec_always xrandr --output Virtual-1 --mode 1680x1050
