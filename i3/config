@@ -412,8 +412,11 @@ exec /usr/bin/vmware-user-suid-wrapper
 #	15. xinit config file (.xinitrc) -> /home/<username>/.xinitrc
 #	16. arch wallpapers -> /home/<username>/Pictures/arch_minimalist_wallpapers/
 #	17. Doom emacs configs -> /home/<username>/Pictures/.doom.d/
+#	18. sddm config (sddm.conf) -> /etc/sddm.conf
+#		Also the solarized sddm theme -> /usr/share/sddm/themes/solarized-sddm-theme/
+#			https://github.com/MalditoBarbudo/solarized_sddm_theme/
 
-#Packages needed for this config (these are the names of the packages in the aur, if installing on another distro make sure to check their repos for specific package names): xorg, xorg-xinit, gpu drivers (nvidia or nvidia-utils if you have nvidia card), xorg, xorg-xinit, i3-gaps, i3lock-color, i3status, i3blocks, dmenu, terminator, ttf-font-awesome, picom, materia-gtk-theme, papirus-icon-theme, lxappearance, rofi, ttf-droid, pacman-contrib, mpstat (in the sysstat package), acpi, polybar, xorg-fonts-misc, siji-git, ttf-unifont, pulseaudio, ttf-nerd-fonts-symbols, nerd-fonts-complete, ranger (cli file manager), edex-ui (terminal emulator with cool effects), pulseaudio (audio server), thunar, snapd (snap store), alsa-utils, zathura (make sure to install zathura plugins for different file types), cava, conky (desktop information displayer), doom emacs, synclient, brightnessctl
+#Packages needed for this config (these are the names of the packages in the aur, if installing on another distro make sure to check their repos for specific package names): xorg, xorg-xinit, gpu drivers (nvidia or nvidia-utils if you have nvidia card), xorg, xorg-xinit, i3-gaps, i3lock-color, i3status, i3blocks, dmenu, terminator, ttf-font-awesome, picom, materia-gtk-theme, papirus-icon-theme, lxappearance, rofi, ttf-droid, pacman-contrib, mpstat (in the sysstat package), acpi, polybar, xorg-fonts-misc, siji-git, ttf-unifont, pulseaudio, ttf-nerd-fonts-symbols, nerd-fonts-complete, ranger (cli file manager), edex-ui (terminal emulator with cool effects), pulseaudio (audio server), thunar, snapd (snap store), alsa-utils, zathura (make sure to install zathura plugins for different file types), cava, conky (desktop information displayer), doom emacs, synclient, brightnessctl, sddm
 
 #To install fonts download them, place them in ~/.fonts, and use "fc-cache -fv"
 
