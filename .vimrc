@@ -50,6 +50,6 @@ set splitbelow
 set tabstop=4
 
 "Open terminal on startup and resize it
-term
-winc k
-resize +10
+"term
+"winc k
+"resize +10
