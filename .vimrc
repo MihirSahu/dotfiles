@@ -1,3 +1,36 @@
+"PLUGINS
+
+"Vundle plugins
+set nocompatible              " be iMproved, required
+filetype off                  " required
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'ycm-core/YouCompleteMe'
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
+
+
+"Vim-plug plugins
+call plug#begin()
+	Plug 'preservim/nerdtree'
+	Plug 'itchyny/lightline.vim'
+call plug#end()
+
+
+"Lightline
+set laststatus=2
+
+let g:lightline = {
+      \ 'colorscheme': 'wombat',
+      \ }
+
+
+"GENERAL COMMANDS
+
 "keeps 100 items in history
 set history=100
 
@@ -53,3 +86,5 @@ set tabstop=4
 "term
 "winc k
 "resize +10
+
+
