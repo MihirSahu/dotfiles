@@ -16,8 +16,22 @@ filetype plugin indent on    " required
 
 "Vim-plug plugins
 call plug#begin()
+
+	"Nerdtree
 	Plug 'preservim/nerdtree'
+
+	"Lightline status bar
 	Plug 'itchyny/lightline.vim'
+
+	"Markdown preview
+	"If you don't have nodejs and yarn
+	"Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
+	"If you have nodejs and yarn
+	Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
+
+	"emmet-vim
+	Plug 'mattn/emmet-vim'
+
 call plug#end()
 
 
