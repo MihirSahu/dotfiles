@@ -463,10 +463,10 @@ bindsym $mod+x exec /home/theonlyonzz/.config/i3lock/i3lock.sh
 
 #Assign programs to workspaces
 #to find name of class for a program run a terminal instance and the program side by side, enter "xprop" in the terminal, and then click on the program window. The class name is the 2nd string in the "WM_CLASS(STRING)" section
-for_window [class="Terminator"] move to workspace $ws1
+#for_window [class="Terminator"] move to workspace $ws1
 for_window [class="Brave-browser"] move to workspace $ws2
 for_window [class="code-oss"] move to workspace $ws3
-for_window [class="Thunar"] move to workspace $ws4
+#for_window [class="Thunar"] move to workspace $ws4
 for_window [class="discord"] move to workspace $ws4
 for_window [class="vlc"] move to workspace $ws5
 
