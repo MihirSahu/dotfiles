@@ -32,6 +32,9 @@ call plug#begin()
 	"emmet-vim
 	Plug 'mattn/emmet-vim'
 
+	"vim-fugitive
+	Plug 'tpope/vim-fugitive'
+
 call plug#end()
 
 
