@@ -14,4 +14,8 @@ export PATH=/home/theonlyonzz/.emacs.d/bin/:/home/theonlyonzz/CLI_programs/:$PAT
 export EDITOR=vim
 export MANPAGER='/bin/bash -c "vim -MRn -c \"set buftype=nofile showtabline=0 ft=man ts=8 nomod nolist norelativenumber nonu noma\" -c \"normal L\" -c \"nmap q :qa<CR>\"</dev/tty <(col -b)"'
 
+# Appearance
 neofetch --ascii_distro Kali
+~/.config/_scripts/neofetch_quotes.py
+## Oh My Posh
+eval "$(oh-my-posh init bash --config ~/.poshthemes/clean-detailed.omp.json)"
