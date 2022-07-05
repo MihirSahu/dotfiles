@@ -35,6 +35,9 @@ call plug#begin()
 	"vim-fugitive
 	Plug 'tpope/vim-fugitive'
 
+	"vim-prettier
+	Plug 'prettier/vim-prettier', { 'do': 'yarn install --frozen-lockfile --production' }
+
 call plug#end()
 
 
