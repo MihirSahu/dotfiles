@@ -196,8 +196,9 @@ bindsym $mod+r mode "resize"
 
 #i3-gaps stuff; uncomment all this if you want to use i3-gaps, comment everything but "Disable window titlebars" it if not
 
-#Disable window titlebars
+#Disable window borders
 for_window [class=".*"] border pixel 0
+#for_window [class=".*"] border pixel 1
 
 #Define gaps in pixels globally with first line or for specific workspaces with second line
 #gaps [inner|outer|horizontal|vertical|top|left|bottom|right] 10
