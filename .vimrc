@@ -38,6 +38,9 @@ call plug#begin()
 	"vim-prettier
 	Plug 'prettier/vim-prettier', { 'do': 'yarn install --frozen-lockfile --production' }
 
+	"vim-signature for marks
+	Plug 'kshenoy/vim-signature'
+
 call plug#end()
 
 
