@@ -1,0 +1,133 @@
+[23:56:50.401][info] [#0:/home/theone/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/main.lua:65]: Lua Lsp startup, root: 	/home/theone/.local/share/nvim/lsp_servers/sumneko_lua/extension/server
+[23:56:50.402][info] [#0:/home/theone/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/main.lua:66]: ROOT:	/home/theone/.local/share/nvim/lsp_servers/sumneko_lua/extension/server
+[23:56:50.402][info] [#0:/home/theone/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/main.lua:67]: LOGPATH:	/home/theone/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/log
+[23:56:50.402][info] [#0:/home/theone/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/main.lua:68]: METAPATH:	/home/theone/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/meta
+[23:56:50.402][info] [#0:/home/theone/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/main.lua:69]: VERSION:	3.5.3
+[23:56:50.435][info] [#0:script/service/service.lua:141]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 1.695 MB
+        # 00 : 1.695 MB
+        # 01 : 0.000 MB
+        # 02 : 0.000 MB
+        # 03 : 0.000 MB
+        # 04 : 0.000 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[23:56:50.545][info] [#0:script/language.lua:137]: VSC language: nil
+[23:56:50.545][info] [#0:script/language.lua:138]: LS  language: en-us
+[23:56:50.545][info] [#0:script/workspace/workspace.lua:38]: Workspace init root: 	file:///home/theone/.config/nvim
+[23:56:50.546][info] [#0:script/workspace/workspace.lua:42]: Log path: 	/home/theone/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/log/file_home_theone_.config_nvim.log
+[23:56:50.546][info] [#0:script/workspace/workspace.lua:51]: Workspace create: 	file:///home/theone/.config/nvim
+[23:56:50.651][info] [#0:script/provider/provider.lua:42]: Load config from client	file:///home/theone/.config/nvim
+[23:56:50.651][info] [#0:script/provider/provider.lua:43]: {
+  Lua = {
+    diagnostics = {
+      globals = { "vim" }
+    },
+    telemetry = {
+      enable = false
+    },
+    workspace = {
+      library = {
+        ["/home/theone/.config/nvim/lua"] = true,
+        ["/usr/share/nvim/runtime/lua"] = true
+      }
+    }
+  }
+}
+[23:56:50.651][info] [#0:script/provider/provider.lua:42]: Load config from client	file:///home/theone/.config/nvim
+[23:56:50.651][info] [#0:script/provider/provider.lua:43]: {
+  Lua = {
+    diagnostics = {
+      globals = { "vim" }
+    },
+    telemetry = {
+      enable = false
+    },
+    workspace = {
+      library = {
+        ["/home/theone/.config/nvim/lua"] = true,
+        ["/usr/share/nvim/runtime/lua"] = true
+      }
+    }
+  }
+}
+[23:56:50.752][info] [#0:script/provider/provider.lua:57]: Load config from client	fallback
+[23:56:50.752][info] [#0:script/provider/provider.lua:58]: {
+  Lua = {
+    diagnostics = {
+      globals = { "vim" }
+    },
+    telemetry = {
+      enable = false
+    },
+    workspace = {
+      library = {
+        ["/home/theone/.config/nvim/lua"] = true,
+        ["/usr/share/nvim/runtime/lua"] = true
+      }
+    }
+  }
+}
+[23:56:50.753][info] [#0:script/library.lua:207]: Init builtin library at:	file:///home/theone/.config/nvim
+[23:56:50.767][info] [#0:script/plugin.lua:86]: plugin path:	/home/theone/.config/nvim
+[23:56:50.767][warn] [#0:script/plugin.lua:101]: plugin not found:	/home/theone/.config/nvim
+[23:56:50.767][info] [#0:script/library.lua:207]: Init builtin library at:	nil
+[23:56:50.782][info] [#0:script/provider/provider.lua:57]: Load config from client	fallback
+[23:56:50.782][info] [#0:script/provider/provider.lua:58]: {
+  Lua = {
+    diagnostics = {
+      globals = { "vim" }
+    },
+    telemetry = {
+      enable = false
+    },
+    workspace = {
+      library = {
+        ["/home/theone/.config/nvim/lua"] = true,
+        ["/usr/share/nvim/runtime/lua"] = true
+      }
+    }
+  }
+}
+[23:56:50.782][info] [#0:script/workspace/workspace.lua:305]: Preload start:	file:///home/theone/.config/nvim
+[23:56:50.784][info] [#0:script/workspace/workspace.lua:311]: Scan files at:	file:///home/theone/.config/nvim
+[23:56:50.784][info] [#0:script/workspace/workspace.lua:305]: Preload start:	<fallback>
+[23:56:50.785][info] [#0:script/workspace/workspace.lua:328]: Scan library at:	file:///home/theone/.config/nvim/lua
+[23:56:50.800][info] [#0:script/workspace/workspace.lua:328]: Scan library at:	file:///home/theone/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/meta/Lua%205.4%20en-us%20utf8
+[23:56:50.806][info] [#0:script/workspace/workspace.lua:328]: Scan library at:	file:///usr/share/nvim/runtime/lua
+[23:56:50.818][info] [#0:script/workspace/workspace.lua:328]: Scan library at:	file:///home/theone/.config/nvim/lua
+[23:56:50.828][info] [#0:script/workspace/workspace.lua:328]: Scan library at:	file:///home/theone/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/meta/Lua%205.4%20en-us%20utf8
+[23:56:50.832][info] [#0:script/workspace/workspace.lua:328]: Scan library at:	file:///usr/share/nvim/runtime/lua
+[23:56:52.471][info] [#0:script/workspace/workspace.lua:348]: Found 71 files at:	<fallback>
+[23:56:52.471][info] [#0:script/workspace/loading.lua:152]: Load files from disk:	<fallback>
+[23:56:52.471][info] [#0:script/workspace/workspace.lua:348]: Found 98 files at:	file:///home/theone/.config/nvim
+[23:56:52.471][info] [#0:script/workspace/loading.lua:152]: Load files from disk:	file:///home/theone/.config/nvim
+[23:56:52.519][info] [#0:script/workspace/loading.lua:164]: Loaded files takes [0.065] sec: file:///home/theone/.config/nvim
+[23:56:52.519][info] [#0:script/workspace/loading.lua:173]: Compile files takes [0.000] sec: file:///home/theone/.config/nvim
+[23:56:52.519][info] [#0:script/workspace/loading.lua:174]: Loaded finish:	file:///home/theone/.config/nvim
+[23:56:52.519][info] [#0:script/workspace/workspace.lua:350]: Preload finish at:	file:///home/theone/.config/nvim
+[23:56:53.031][info] [#0:script/workspace/loading.lua:164]: Loaded files takes [0.563] sec: <fallback>
+[23:56:53.031][info] [#0:script/workspace/loading.lua:173]: Compile files takes [0.000] sec: <fallback>
+[23:56:53.031][info] [#0:script/workspace/loading.lua:174]: Loaded finish:	<fallback>
+[23:56:53.031][info] [#0:script/workspace/workspace.lua:350]: Preload finish at:	<fallback>
+[23:56:53.044][warn] [#0:script/proto/proto.lua:122]: Response of [workspace/diagnostic/refresh] error [-32601]: MethodNotFound
+[23:56:53.145][warn] [#0:script/proto/proto.lua:122]: Response of [workspace/diagnostic/refresh] error [-32601]: MethodNotFound
+[23:56:54.472][info] [#0:script/provider/diagnostic.lua:486]: Diagnostics scope [<fallback>], files count:[72]
+[23:56:54.473][info] [#0:script/provider/diagnostic.lua:486]: Diagnostics scope [file:///home/theone/.config/nvim], files count:[72]
+[23:56:55.523][info] [#0:script/provider/diagnostic.lua:503]: Diagnostics scope [<fallback>] finished, takes [1.023] sec.
+[23:56:55.523][info] [#0:script/provider/diagnostic.lua:503]: Diagnostics scope [file:///home/theone/.config/nvim] finished, takes [1.023] sec.
+[23:56:57.206][info] [#0:script/provider/provider.lua:168]: Server shutdown.
+[23:56:57.307][info] [#0:script/provider/provider.lua:161]: Server exited.

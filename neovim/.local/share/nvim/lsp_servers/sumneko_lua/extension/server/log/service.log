@@ -1,0 +1,31 @@
+[23:56:50.401][info] [#0:/home/theone/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/main.lua:65]: Lua Lsp startup, root: 	/home/theone/.local/share/nvim/lsp_servers/sumneko_lua/extension/server
+[23:56:50.402][info] [#0:/home/theone/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/main.lua:66]: ROOT:	/home/theone/.local/share/nvim/lsp_servers/sumneko_lua/extension/server
+[23:56:50.402][info] [#0:/home/theone/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/main.lua:67]: LOGPATH:	/home/theone/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/log
+[23:56:50.402][info] [#0:/home/theone/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/main.lua:68]: METAPATH:	/home/theone/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/meta
+[23:56:50.402][info] [#0:/home/theone/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/main.lua:69]: VERSION:	3.5.3
+[23:56:50.435][info] [#0:script/service/service.lua:141]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 1.695 MB
+        # 00 : 1.695 MB
+        # 01 : 0.000 MB
+        # 02 : 0.000 MB
+        # 03 : 0.000 MB
+        # 04 : 0.000 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[23:56:50.545][info] [#0:script/language.lua:137]: VSC language: nil
+[23:56:50.545][info] [#0:script/language.lua:138]: LS  language: en-us
+[23:56:50.545][info] [#0:script/workspace/workspace.lua:38]: Workspace init root: 	file:///home/theone/.config/nvim
+[23:56:50.546][info] [#0:script/workspace/workspace.lua:42]: Log path: 	/home/theone/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/log/file_home_theone_.config_nvim.log
